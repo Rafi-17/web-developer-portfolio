@@ -63,7 +63,7 @@ nav a {
 
 /* header related styles */
 .header {
-    background-color: #FFF8F3;
+    background-color: #f9d3f4;
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: right bottom, left;
@@ -114,8 +114,9 @@ main section {
 
 /* about section styles */
 .about {
+    padding: 131px 157px;
     border-radius: 10px;
-    background: #FFF8F3;
+    background: #f9d3f4;
     margin: 130px 0;
 }
 
@@ -181,4 +182,27 @@ main section {
 .download-cv{
     text-align: center;
     margin-top: 50px;
+}
+/* footer styles */
+.footer-class{
+    display: flex;
+    gap: 100px;
+    background: #f9d3f4;
+    padding: 130px 200px;
+    margin-top: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+.contact input[type="text"], .contact input[type="email"],textarea{
+    display: block;
+    margin-top: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border: 0px;
+    background: white;
+    width: 100%;
+}
+.contact textarea{
+    margin-bottom: 24px;
 }
